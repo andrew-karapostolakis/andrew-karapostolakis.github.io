@@ -1,18 +1,37 @@
+body {
+	background-color: #FF6600;
+}
+#title {
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: 500px;
+}
+#content {
+	background-color: #FFFFFF;
+	height: 100px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
 p {
-	font-family:Ubuntu,Calibri,Arial,sans-serif
+	font-family:Ubuntu,Calibri,Arial,sans-serif;
+	text-align: center;
 }
 h1 {
-	font-family:Ubuntu,Calibri,Arial,sans-serif
+	font-family:Ubuntu,Calibri,Arial,sans-serif;
+	text-align: center
 }
 @font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Ubuntu'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/vRvZYZlUaogOuHbBTT1SNevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Ubuntu'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/vRvZYZlUaogOuHbBTT1SNevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
 @font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/0ihfXUL2emPh0ROJezvraLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/0ihfXUL2emPh0ROJezvraLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
