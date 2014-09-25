@@ -10,10 +10,11 @@ body {
 }
 #content {
 	background-color: #FFFFFF;
-	height: 100px;
+	height: auto;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 10px
 }
 p {
 	font-family:Ubuntu,Calibri,Arial,sans-serif;
@@ -22,6 +23,11 @@ p {
 h1 {
 	font-family:Ubuntu,Calibri,Arial,sans-serif;
 	text-align: center
+}
+h2 {
+	font-family:Ubuntu,Calibri,Arial,sans-serif;
+	text-align: center;
+	text-decoration: underline;
 }
 @font-face {
 	font-family: 'Ubuntu';
