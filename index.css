@@ -1,14 +1,14 @@
 body {
-	background-color: #FF6600;
+	background-color: #F60;
 }
 #title {
-	color: #FFFFFF;
+	color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
 	height: 50px;
 }
 #content {
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	height: auto;
 	max-width: 1000px;
 	width: 90%;
