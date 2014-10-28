@@ -20,8 +20,12 @@ permalink: /404.html
 		</div>
 	</body>
 	<script>
-		var currentDinosaurNumber = 2721;
+		var millennium = new Date(2000, 0, 1) // Month is 0-11 in JavaScript
+		var today = new Date() // Get today in milliseconds after January 1st, 1970
+		var one_day = 1000 * 60 * 60 * 24
+		var currentDinosaurNumber = (Math.ceil(5 / 7 * (today.getTime() - millennium.getTime()) / (one_day))) - 1147;
 		var link = document.getElementById("comic");
-		link[0].href= "http://www.qwantz.com/index.php?comic=" + Math.ceil(Math.random()*currentDinosaurNumber);
+		link[0].href = "http://www.qwantz.com/index.php?comic=" + Math.ceil(Math.random() * currentDinosaurNumber);
 	</script>
+
 </html>
