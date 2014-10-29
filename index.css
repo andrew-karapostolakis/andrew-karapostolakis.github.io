@@ -1,33 +1,44 @@
 body {
-	background-color: #FF6600;
+	background-color: #F60;
 }
 #title {
-	color: #FFFFFF;
+	color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
 	height: 50px;
-	width: 500px;
 }
 #content {
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	height: auto;
-	width: 1000px;
+	max-width: 1000px;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px
+	padding: 10px;
 }
 p {
-	font-family:Ubuntu,Calibri,Arial,sans-serif;
+	font-family: Ubuntu, Calibri, Arial, sans-serif;
 	text-align: center;
 }
 h1 {
-	font-family:Ubuntu,Calibri,Arial,sans-serif;
+	font-family: Ubuntu, Calibri, Arial, sans-serif;
 	text-align: center
 }
 h2 {
-	font-family:Ubuntu,Calibri,Arial,sans-serif;
+	font-family: Ubuntu, Calibri, Arial, sans-serif;
 	text-align: center;
 	text-decoration: underline;
+}
+a {
+	color: #f60;
+	text-decoration: none;
+	box-shadow: 0 1px 0 #f60;
+	-webkit-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
+}
+a:hover {
+	box-shadow: 0 9px 0 -8px #000;
+	color: #993d00;
 }
 @font-face {
 	font-family: 'Ubuntu';
