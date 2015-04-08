@@ -16,6 +16,11 @@ body {
 	margin-right: auto;
 	padding: 10px;
 }
+#netscape {
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
 p {
 	font-family: Ubuntu, Calibri, Arial, sans-serif;
 	text-align: center;
@@ -29,14 +34,14 @@ h2 {
 	text-align: center;
 	text-decoration: underline;
 }
-a {
+p a {
 	color: #f60;
 	text-decoration: none;
 	box-shadow: 0 1px 0 #f60;
 	-webkit-transition: all 0.3s ease;
 	        transition: all 0.3s ease;
 }
-a:hover {
+p a:hover {
 	box-shadow: 0 9px 0 -8px #000;
 	color: #993d00;
 }
