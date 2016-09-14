@@ -1,12 +1,17 @@
+/* Main BG*/
 body {
 	background-color: #F60;
 }
-#title {
+
+/* Page title*/
+header {
 	color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
 	height: 50px;
 }
+
+/* Main page content*/
 #content {
 	background-color: #FFF;
 	height: auto;
@@ -15,25 +20,54 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
+	clear: both;
 }
-#netscape {
+
+footer {
 	margin: auto;
 	padding: 10px;
 	text-align: center;
 }
+
 p {
 	font-family: Ubuntu, Calibri, Arial, sans-serif;
 	text-align: center;
 }
+
+/* Page title */
 h1 {
 	font-family: Ubuntu, Calibri, Arial, sans-serif;
 	text-align: center
 }
+
 h2 {
 	font-family: Ubuntu, Calibri, Arial, sans-serif;
 	text-align: center;
 	text-decoration: underline;
 }
+
+/* Top nav */
+nav ul {
+	list-style-type: none;
+	font-family: Ubuntu, Calibri, Arial, sans-serif;
+	text-align: center;
+	margin-bottom: 5px;
+	width: 100%;
+	float: left;
+}
+nav li {
+	display: inline-block;
+	background-color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 30%;
+	max-width: 334px;
+}
+nav a {
+	text-decoration: none;
+}
+
+/* Text links */
 p a {
 	color: #f60;
 	text-decoration: none;
@@ -45,6 +79,8 @@ p a:hover {
 	box-shadow: 0 9px 0 -8px #000;
 	color: #993d00;
 }
+
+/* Define Ubuntu font*/
 @font-face {
 	font-family: 'Ubuntu';
 	font-style: normal;
