@@ -1,95 +1,51 @@
-/* Main BG*/
 body {
-	background-color: #F60;
+	background-color: #f8f8f8;
 }
 
-/* Page title*/
-header {
-	color: #FFF;
-	margin-left: auto;
-	margin-right: auto;
-	height: 50px;
-}
-
-/* Main page content*/
-#content {
-	background-color: #FFF;
-	height: auto;
+#page {
 	max-width: 1000px;
-	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px;
-	clear: both;
 }
 
-footer {
-	margin: auto;
-	padding: 10px;
-	text-align: center;
-}
-
-p {
-	font-family: Ubuntu, Calibri, Arial, sans-serif;
-	text-align: center;
-}
-
-/* Page title */
-h1 {
-	font-family: Ubuntu, Calibri, Arial, sans-serif;
-	text-align: center
-}
-
-h2 {
-	font-family: Ubuntu, Calibri, Arial, sans-serif;
-	text-align: center;
-	text-decoration: underline;
-}
-
-/* Top nav */
-nav ul {
-	list-style-type: none;
-	font-family: Ubuntu, Calibri, Arial, sans-serif;
-	text-align: center;
-	margin-bottom: 5px;
+nav {
 	width: 100%;
 	float: left;
 }
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
 nav li {
-	display: inline-block;
-	background-color: #FFF;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 30%;
-	max-width: 334px;
+	float: left;
+	list-style-type: none;
 }
-nav a {
+
+nav li a {
+	display: block;
+	margin: 2px;
+	background-color: white;
+	padding: 8px 1em;
 	text-decoration: none;
 }
 
-/* Text links */
-p a {
-	color: #f60;
-	text-decoration: none;
-	box-shadow: 0 1px 0 #f60;
-	-webkit-transition: all 0.3s ease;
-	        transition: all 0.3s ease;
-}
-p a:hover {
-	box-shadow: 0 9px 0 -8px #000;
-	color: #993d00;
+#holding-body {
+	background-color: white;
+	float: left;
+	width: 100%;
 }
 
-/* Define Ubuntu font*/
-@font-face {
-	font-family: 'Ubuntu';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Ubuntu'), url(//themes.googleusercontent.com/static/fonts/ubuntu/v5/vRvZYZlUaogOuHbBTT1SNevvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+#body-area {
+	margin: auto;
+	width: 90%;
+	height: 90%;
 }
-@font-face {
-	font-family: 'Ubuntu';
-	font-style: normal;
-	font-weight: 700;
-	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(//themes.googleusercontent.com/static/fonts/ubuntu/v5/0ihfXUL2emPh0ROJezvraLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+
+footer {
+	float: left;
+	clear: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }

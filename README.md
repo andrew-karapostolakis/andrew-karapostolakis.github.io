@@ -1,6 +1,3 @@
-pwnzorak.github.io
+andrew-karapostolakis.github.io
 ==================
-
-My website
-
-WORK IN PROGRESS
+A small personal website, with some examples of my projects.
