@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<title>Andrew Karapostolakis</title>
+		<title>JSPong - Andrew Karapostolakis</title>
 		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="page">
@@ -19,13 +20,16 @@
 			</header>
 			<div id="holding-body">
 				<div id="body-area">
-					<p>Lorem ipsum dolor sit amet</p>
-					<p>Foo Bar Baz</p>
+					<p>JSPong</p>
+					<p>Controls: W and S for player 1, arrow keys for player 2</p>
+					<p><button onclick="init()">Start</button></p>
+					<canvas id="pongCanvas" width="800" height="600">Your browser does not support HTML5 Canvas. Please upgrade to a more recent browser to play.</canvas>
+					<script src="pongGame.js"></script>
 				</div>
 			</div>
 			<footer>
 				<a href="https://www.seamonkey-project.org">
-					<img src="net4now.gif" alt="Netscape NOW!"/>
+					<img src="../net4now.gif" alt="Netscape NOW!"/>
 				</a>
 			</footer>
 		</div>
