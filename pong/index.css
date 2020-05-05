@@ -50,6 +50,11 @@ footer {
 	margin-bottom: 10px;
 }
 
+#notice {
+	font-weight: bold;
+	font-size: x-large;
+}
+
 @font-face {
     font-family: 'pong_scoreregular';
     src: url('pong-score-webfont.eot');
